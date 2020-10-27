@@ -5,7 +5,7 @@
 }
 
 body {
-  font-size: 14px;
+  font-size: 22px;
 }
 
 div {
@@ -19,7 +19,7 @@ div li {
 }
 
 div li + li {
-  margin-top: 15px;
+  margin-top: 20px;
 }
 
 button {
@@ -31,9 +31,10 @@ button {
   margin-top: 15px;
   font-weight: bold;
   font-size: 14px;
+  border-radius: 4px;
 }
 
 div li button {
-  margin: 0 15px;
+  margin: 0 20px;
   background: #ca4949;
 }

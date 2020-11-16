@@ -59,6 +59,6 @@
   
   ##### &rightarrow; <a name="desafio02">Desafio 02 - Conceitos em Node.js</a>: https://github.com/luissiqmaia/Desafio-02-Conceitos-do-Node.js
   
-  ##### &rightarrow; Para mais informações acerca deste desafio visite: https://github.com/rocketseat-education/bootcamp-gostack-desafios/tree/master/desafio-conceitos-reactjs
+  ##### &rightarrow; Para mais informações acerca deste desafio visite: https://github.com/luissiqmaia/bootcamp-gostack-desafios/blob/master/desafio-conceitos-reactjs/README.md
 </p>
 

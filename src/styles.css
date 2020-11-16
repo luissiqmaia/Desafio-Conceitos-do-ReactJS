@@ -8,44 +8,46 @@
 body {
   font-size: 22px;
   padding: 20px 50px;
-  background-color: #f3f3f3;
+  background-color: rgba(30, 172, 227, 0.9);
 
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-div {
+div#container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
 
   background: #3f3f3f;
-  max-width: 500px;
-  flex: 1;
+  max-width: 600px;
+  min-width: 550px;
   min-height: calc(100vh - 8vh);
   border-radius: 5px;
   padding: 10px 10px;
 }
 
-div ul {
+div#container ul {
   padding: 15px 10px;
 }
 
-div ul li {
-  list-style-type: none;
+div#container ul li {
   color: #fff;
+  list-style-type: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-div li + li {
+div#container li + li {
   margin-top: 20px;
 }
 
-div li > button {
+button {
   color: #fff;
-  background: #ca4949;
-  margin-left: 15px;
   border-radius: 4px;
 
   border: 0;
@@ -56,15 +58,11 @@ div li > button {
   font-size: 14px;
 }
 
-div > button {
-  color: #fff;
+div#container li > button {
+  margin-left: 20px;
+  background: #ca4949;
+}
+
+div#container > button {
   background: #7159c1;
-  border-radius: 4px;
-
-  border: 0;
-  padding: 10px 15px;
-  cursor: pointer;
-
-  font-weight: bold;
-  font-size: 14px;
 }

@@ -33,9 +33,14 @@ function App() {
    */
   async function handleAddRepository() {
     try {
+      const dateNow = new Date(Date.now());
+
+      const date = dateNow.toLocaleString();
+      let time = dateNow.getMilliseconds();
+
       const result = await api.post('/repositories', {
         url: "https://github.com/luishenrique",
-        title: `Desafio ReactJS ${Date.now()}`,
+        title: `Desafio ReactJS ${date}.${time}`,
         techs: ["ReactJS", "Node.js"],
       });
 
@@ -63,16 +68,17 @@ function App() {
     }
   }
 
+
   // Conteúdo JSX apresentado ao usuário
   return (
-    <div>
+    <div id="container">
       <ul data-testid="repository-list">
         {repositories && repositories.map(r => (
           <li key={r['id']}>
             {r.title}
             <button onClick={() => handleRemoveRepository(r.id)}>
               Remover
-          </button>
+            </button>
           </li>
         ))}
       </ul>

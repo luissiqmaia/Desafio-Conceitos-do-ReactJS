@@ -21,10 +21,11 @@ div#container {
   align-items: center;
   justify-content: space-between;
 
-  background: #3f3f3f;
   max-width: 600px;
   min-width: 550px;
   min-height: calc(100vh - 8vh);
+  
+  background: #3f3f3f;
   border-radius: 5px;
   padding: 10px 10px;
 }
